@@ -21,3 +21,9 @@
   - 图数据库（https://github.com/neo4j/neo4j）
   - 规则引擎（https://github.com/kiegroup/drools）
 
+## 项目时间进度安排
+- 基本环境搭建 - 3月
+- 技术原理熟悉 - 3月
+- 新型算法设计 - 3月
+- 新型算法实现 - 3月
+- 新型算法测试 - 3月
