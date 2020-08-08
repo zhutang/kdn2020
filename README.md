@@ -1,7 +1,7 @@
 # kdn2020
 知识定义网络项目-2020大创
 
-## 技术栈
+## 技术栈（更新中）
 - GitHub Desktop使用指南
   - https://www.jianshu.com/p/a6fc842f501d
 
