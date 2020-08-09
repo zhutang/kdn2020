@@ -7,9 +7,17 @@
 
 - 操作系统: Ubuntu 14.04, 16.04.
 
-- 可编程数据平面与SDN网络仿真环境（bmv2、P4-14、mininet）
-  - p4Installer/（https://github.com/Wasdns/p4Installer）
-  - SDN控制器（https://github.com/faucetsdn/ryu）
+- SDN网络仿真环境（mininet）
+  - mininet 2.2.2（https://github.com/mininet/mininet）
+  - mininet虚拟机（https://github.com/mininet/mininet/releases）
+  - OpenvSwitch（https://github.com/openvswitch/ovs）
+  - SDN控制器Ryu（https://github.com/faucetsdn/ryu）
+
+- 网络流量监控（sFlow）
+  - 基于Mininet的网络流量监控（https://www.sdnlab.com/3760.html）
+  - sFlow Collector（http://www.inmon.com/products/sFlow-RT/sflow-rt.tar.gz）
+  - sFlow流量可视化应用（https://github.com/sflow-rt/flow-graph）
+  - API（https://sflow-rt.com/reference.php）
 
 - 强化学习算法（tensorflow）
   - https://github.com/tensorflow/tensorflow
