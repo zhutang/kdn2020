@@ -12,6 +12,7 @@
   - mininet虚拟机（https://github.com/mininet/mininet/releases）
   - OpenvSwitch（https://github.com/openvswitch/ovs）
   - SDN控制器Ryu（https://github.com/faucetsdn/ryu）
+  - 数据中心网络架构的问题与演进 — CLOS网络与Fat-Tree、Spine-Leaf架构（https://www.cnblogs.com/jmilkfan-fanguiju/p/11825042.html）
 
 - 网络流量监控（sFlow）
   - 基于Mininet的网络流量监控（https://www.sdnlab.com/3760.html）
