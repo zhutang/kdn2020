@@ -12,10 +12,13 @@
   - mininet虚拟机（https://github.com/mininet/mininet/releases ）
     - mininet版本2.2.2，操作系统ubuntu14.04 amd64, OVS版本2.0.2, 默认使用openflow1.0
     - mininet/example/tree1024.py: 1024 host, 33 OVS switch，1 controller
+    - mininet入门教程（含拓扑构建） - https://github.com/mininet/mininet/wiki/Introduction-to-Mininet
   - OpenvSwitch（https://github.com/openvswitch/ovs ）
     - mininet学习之OVS指令 （https://blog.csdn.net/qq_37831759/article/details/110821597 ）
     - 官方文档（https://docs.openvswitch.org/en/latest/tutorials/ ）
+    - 简单拓扑流表配置 - 
   - SDN控制器Ryu（https://github.com/faucetsdn/ryu ）
+    - RYU入门教程（含L2Swtich源码） - https://www.sdnlab.com/1785.html
   - 数据中心网络架构的问题与演进 — CLOS网络与Fat-Tree、Spine-Leaf架构（https://www.cnblogs.com/jmilkfan-fanguiju/p/11825042.html ）
 
 - 网络流量监控（sFlow）
@@ -26,7 +29,7 @@
       - wget https://inmon.com/products/sFlow-RT/sflow-rt.tar.gz
       - tar -xvzf sflow-rt.tar.gz
       - ./sflow-rt/start.sh
-      - sudo apt-get install openjdk-7-jdk --- 然而需要sFlow-RT requires Java 1.8+，考虑在Ubuntu 14.04中安装jdk1.8
+      - sudo apt-get install openjdk-7-jdk --- 然而需要sFlow-RT requires Java 1.8+，考虑在Ubuntu 14.04中安装jdk1.8，已安装完成
         - https://www.cnblogs.com/duoban/p/11342929.html
   - sFlow流量可视化应用（https://github.com/sflow-rt/flow-graph ）
   - API（https://sflow-rt.com/reference.php ）
