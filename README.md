@@ -27,8 +27,8 @@
       - pip3不可用时问题处理
         - python3 -m pip install 模块名 - https://blog.csdn.net/qq_33811662/article/details/80615353
       - ryu与mininet采用Openflow1.3协议连接 - https://www.sdnlab.com/15079.html
-        - mn --switch ovs,protocols=OpenFlow13 --controller=remote,ip=xxx,port=6633
-        - ryu-manager ryu/app/simple_switch_13.py
+        - 三层二叉树拓扑：mn --topo=tree,3 --switch ovs,protocols=OpenFlow13 --controller=remote,ip=xxx,port=6633
+        - 含拓扑显示、链路显示：ryu-manager ryu/app/simple_switch_13.py ryu/app/gui_topology/gui_topology.py --observe-links
   - 数据中心网络架构的问题与演进 — CLOS网络与Fat-Tree、Spine-Leaf架构（https://www.cnblogs.com/jmilkfan-fanguiju/p/11825042.html ）
     - 数据中心网络胖树结构介绍 - https://www.jianshu.com/p/99642d24fe84
     - Mininet实战之Fat tree拓扑创建和iperfmulti功能（胖树拓扑构建代码与测试工具） - https://www.sdnlab.com/8593.html
